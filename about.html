@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="../card.css">
+    <style>
+        .vid{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 8rem; */
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.vid iframe{
+    position: relative;
+    border-radius: 0.7rem;
+    margin-left: 0.25rem;
+}
+.vid iframe:nth-child(1):hover + .hide{
+    display: block;
+    color: red;
+}
+h2{
+    color: rgb(255, 47, 0);
+}
+.hide{
+    display: none;
+}
+.about{
+    margin-top: 2rem;
+    max-width: 1280px;
+    justify-content: center;
+}
+.text{
+    margin-left: 20%;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header class="header-content">
+            <a href="#" class="logo">
+                <img src="./images/logo.png" alt="logo" class="logo-icon">
+                <!-- <span class="logo-text">MyLib </span> -->
+            </a>
+            <p class="page-tit">Digital Bahujan Library</p>
+            <a href="#contact" class="contact-button">
+                Contact Us
+            </a>
+            <button type="button" class="menu-button">
+                <img src="./images/hamburger.svg" alt="menu" class="menu-icon">
+            </button>
+        </header>
+        <div class="title">
+            <section class="one">Educate</section>
+            <section class="two">Organize</section>
+            <section class="three">Agitate</section>
+        </div>
+        <nav role="navigation" class="primary-navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Section &dtrif;</a>
+                <ul class="dropdown">
+                    <li><a href="doc.html">Document Section</a></li>
+                    <li><a href="video.html">Video Section</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>  
+    <div class="about">
+        <h3>About Us</h3>
+        <section class="text">
+            This website is a small contribution towards our bahujan community which invloves
+            young kids,teenage and adults. This project is aimed to provide learning experience
+            to everyone in a flawless way.
+            This site contains different sections to help people learn through books, speeches,
+            videos, audios and other related materials.
+        </section>
+    </div>  
+</body>
+</html>

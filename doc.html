@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Section</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="../card.css">
+    <!-- <style>
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            /* height: 80%; */
+        }
+        .verbar-left{
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            width: 10%;
+            /* background-color: rgb(244, 246, 244); */
+            background-color:#eaeef2;
+            justify-content: left;
+            margin-top: 3.5rem;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            animation: slideFromLeft 1s ease forwards;
+        }
+        li{
+            padding: 0.3rem;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        a{
+            color: #226fa7;
+        }
+        @keyframes slideFromLeft {
+            0%{
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            100%{
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        .verbar-right{
+            display:flex;
+            flex-direction: column;
+            height: 500px;
+            width: 10%;
+            /* background-color: rgb(244, 246, 244); */
+            background-color:#eaeef2;
+            align-items:flex-end;
+            margin-top: 3.5rem;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            animation: slideFromRight 1s ease forwards;
+        }
+        @keyframes slideFromRight {
+            0%{
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            100%{
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        .cards{
+            margin-bottom: 2rem;
+            max-width: 960px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            margin-left: 0.3rem;
+            
+        }
+        .card_container{
+            /* width: 22rem; */
+            height: 35rem;
+        }
+        .card_container img{
+            object-fit: fill;
+        }
+    </style> -->
+</head>
+<body>
+    <div class="header">
+        <header class="header-content">
+            <a href="#" class="logo">
+                <img src="./images/logo.png" alt="logo" class="logo-icon">
+                <!-- <span class="logo-text">MyLib </span> -->
+            </a>
+            <p class="page-tit">Digital Bahujan Library</p>
+            <a href="#contact" class="contact-button">
+                Contact Us
+            </a>
+            <button type="button" class="menu-button">
+                <img src="./images/hamburger.svg" alt="menu" class="menu-icon">
+            </button>
+        </header>
+        <div class="title">
+            <section class="one">Educate</section>
+            <section class="two">Organize</section>
+            <section class="three">Agitate</section>
+        </div>
+        <nav role="navigation" class="primary-navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Section &dtrif;</a>
+                <ul class="dropdown">
+                    <li><a href="doc.html">Document Section</a></li>
+                    <li><a href="video.html">Video Section</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="flex-container">
+        <div class="verbar-left">
+            <ul>
+                <h3 style="color: #1672b5d3; text-align: center;">Articles <hr></h3>
+                <li><a href="#">Dr Ambedkar's life in brief</a></li>
+                <li><a href="#">Kanshiram Life History</a></li>
+                <li><a href="#">Mayawati Life Journey</a></li>
+                <li><a href="#">Buddha's Life History</a></li>
+                <li><a href="#">Write your article</a></li>
+            </ul>
+        </div>
+        
+        <div class="cards">
+            <main class="main_container">
+    
+                <!-- card 1 start -->
+                <div class="card_container">
+                    <a href="#" class="card_image_container">
+                        <img
+                            src="../Video Library/images/bb.png"
+                            alt="card 1 image"
+                            class="card_image"
+                            loading="lazy"
+                        />
+                    </a>
+    
+                    <div class="card_title_container">
+                        <a href="#" class="card_title_anchor">
+                            <h2 class="card_title">Dr B.R Ambedkar</h2>
+                        </a>
+                        <p class="card_desc">
+                            Materials related to babasaheb ambedkar's life;
+                            books, articles and other important documents.
+                        </p>
+                        <button class="btn_card">Read Now</button>
+                    </div>
+                </div>
+                <!-- card 1 ends here -->
+    
+                <div class="card_container">
+                    <a href="#" class="card_image_container">
+                        <img
+                            src="../Video Library/images/mk1.png"
+                            alt="card 1 image"
+                            class="card_image"
+                            loading="lazy"
+                        />
+                    </a>
+    
+                    <div class="card_title_container">
+                        <a href="#" class="card_title_anchor">
+                            <h2 class="card_title">Kanshiram and Mayawati</h2>
+                        </a>
+                        <p class="card_desc">
+                            Books, articles and other documents related to Kanshiram ji and Mayawati
+                            and more to life.
+                        </p>
+                        <button class="btn_card">Read Now</button>
+                    </div>
+                </div>
+    
+                <div class="card_container">
+                    <a href="#" class="card_image_container">
+                        <img
+                            src="../Video Library/images/JS.png"
+                            alt="card 1 image"
+                            class="card_image"
+                            loading="lazy"
+                        />
+                    </a>
+    
+                    <div class="card_title_container">
+                        <a href="#" class="card_title_anchor">
+                            <h2 class="card_title">Jyotibha and SavitriBai Phule</h2>
+                        </a>
+                        <p class="card_desc">
+                            Books, articles and other documents related to Jyotibha Phule and Savitri Mai Phule.
+                        </p>
+                        <button class="btn_card">Read Now</button>
+                    </div>
+                </div>
+    
+                <div class="card_container">
+                    <a href="#" class="card_image_container">
+                        <img
+                            src="../project cards/budda.png"
+                            alt="card 1 image"
+                            class="card_image"
+                            loading="lazy"
+                        />
+                    </a>
+    
+                    <div class="card_title_container">
+                        <a href="#" class="card_title_anchor">
+                            <h2 class="card_title">Buddha and Babasaheb</h2>
+                        </a>
+                        <p class="card_desc">
+                            Books, articles and other documents related to Buddha and babasaheb.
+                        </p>
+                        <button class="btn_card">Read Now</button>
+                    </div>
+                </div>
+    
+                <div class="card_container">
+                    <a href="#" class="card_image_container">
+                        <img
+                            src="../project cards/buddha.png"
+                            alt="card 1 image"
+                            class="card_image"
+                            loading="lazy"
+                        />
+                    </a>
+    
+                    <div class="card_title_container">
+                        <a href="#" class="card_title_anchor">
+                            <h2 class="card_title">Buddha and His Life Journey</h2>
+                        </a>
+                        <p class="card_desc">
+                            Books, articles and other documents related to life Journey of Buddha.                   
+                        </p>
+                        <button class="btn_card">Read Now</button>
+                    </div>
+                </div>
+    
+                <div class="card_container">
+                    <a href="#" class="card_image_container">
+                        <img
+                            src="../project cards/others.png"
+                            alt="card 1 image"
+                            class="card_image"
+                            loading="lazy"
+                        />
+                    </a>
+    
+                    <div class="card_title_container">
+                        <a href="#" class="card_title_anchor">
+                            <h2 class="card_title">Other Content</h2>
+                        </a>
+                        <p class="card_desc">
+                            Add Extra content
+                        </p>
+                        <button class="btn_card">Read Now</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div class="verbar-right">
+            <ul>
+                <h3 style="color: #1672b5d3; text-align: center;">Blogs <hr></h3>
+                <li><a href="#">Blog 1</a></li>
+                <li><a href="#">Blog 2</a></li>
+                <li><a href="#">Blog 3</a></li>
+                <li><a href="#">Blog 4</a></li>
+                <li><a href="#">Write your blog</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
